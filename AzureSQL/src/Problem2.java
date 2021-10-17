@@ -28,11 +28,11 @@ public class Problem2 {
 			,HOSTNAME, DBNAME, USERNAME, PASSWORD);
 
 	// Query templates    
-	final static String QUERY_TEMPLATE_1 = "INSERT INTO Performer " + "VALUES (?, ?, ?, ?);";
-    final static String QUERY_TEMPLATE_2 = "SELECT * FROM Performer;";
+	final static String QUERY_TEMPLATE_1 = "EXEC sp_1 @pid = ?, @name = ?, @age = ?;";
+    final static String QUERY_TEMPLATE_2 = "EXEC sp_1 @pid = ?, @name = ?, @age = ?;";
     final static String QUERY_TEMPLATE_3 = "SELECT * FROM Performer;";
     // User input prompt//    
-    final static String PROMPT = "\nPlease select one of the options below: \n" + "1) Insert new Performer \n" + "2) Insert new Performer (with did) \n" + "3) Display all perfomers \n" + "3) Exit!";
+    final static String PROMPT = "\nPlease select one of the options below: \n" + "1) Insert new Performer \n" + "2) Insert new Performer (with did) \n" + "3) Display all perfomers \n" + "4) Exit!";
     
     public static void main(String[] args) throws SQLException {        
     	System.out.println("Welcome to the sample application!");

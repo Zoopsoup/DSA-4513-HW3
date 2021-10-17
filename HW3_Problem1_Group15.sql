@@ -13,3 +13,7 @@
 ---UPDATE Movie SET did = 5;
 ---d)
 ---SELECT dname FROM Director WHERE dname = 5;
+
+
+---1.2---
+---CREATE INDEX index_did ON Movie (did)

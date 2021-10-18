@@ -1,5 +1,5 @@
 1) 
-name	certificateNo	city	price_per-hour	Block
+name	certificateNo	city	price_per_hour	Block
 Black	33		OKC	20		1
 Chapman	44		Edmond	20		2
 Clinton	55		Tulsa	25		3
@@ -11,7 +11,7 @@ Johnson	11		Yukon	20		1
 White	77		OKC	20		2
 
 2)
-name	price_per-hour	Bucket
+name	price_per_hour	Bucket
 Grant	15		1
 Johnson	20		2
 Black	20		2

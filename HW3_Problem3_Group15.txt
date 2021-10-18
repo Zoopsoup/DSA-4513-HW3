@@ -9,4 +9,16 @@ Haas	99		OKC	20		3
 Hougen	88		Yukon	25		3
 Johnson	11		Yukon	20		1
 White	77		OKC	20		2
+
+2)
+name	price_per-hour	Bucket
+Grant	15		1
+Johnson	20		2
+Black	20		2
+White	20		2
+Chapman	20		2
+Haas	20		2
+Ford	25		3
+Hougen	25		3
+Clinton	25		3
  

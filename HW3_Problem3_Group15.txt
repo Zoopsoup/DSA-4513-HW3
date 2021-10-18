@@ -1,12 +1,12 @@
 1) 
-name	certificateNo	city	price_per_hour
-Johnson	11		Yukon	20
-Black	33		OKC	20
-Grant	22		Norman	15
-White	77		OKC	20
-Chapman	44		Edmond	20
-Ford	66		Enid	25
-Haas	99		OKC	20
-Hougen	88		Yukon	25
-Clinton	55		Tulsa	25
+name	certificateNo	city	price_per-hour	Record
+Black	33		OKC	20		2
+Chapman	44		Edmond	20		5
+Clinton	55		Tulsa	25		9
+Ford	66		Enid	25		6
+Grant	22		Norman	15		3
+Haas	99		OKC	20		7
+Hougen	88		Yukon	25		8
+Johnson	11		Yukon	20		1
+White	77		OKC	20		4
  

@@ -29,7 +29,7 @@ public class Problem2 {
 
 	// Query templates    
 	final static String QUERY_TEMPLATE_1 = "EXEC sp_1 @pid = ?, @name = ?, @age = ?;";
-    final static String QUERY_TEMPLATE_2 = "EXEC sp_1 @pid = ?, @name = ?, @age = ?;";
+    final static String QUERY_TEMPLATE_2 = "EXEC sp_2 @pid = ?, @name = ?, @age = ?, @did = ?;";
     final static String QUERY_TEMPLATE_3 = "SELECT * FROM Performer;";
     // User input prompt//    
     final static String PROMPT = "\nPlease select one of the options below: \n" + "1) Insert new Performer \n" + "2) Insert new Performer (with did) \n" + "3) Display all perfomers \n" + "4) Exit!";
@@ -92,11 +92,12 @@ public class Problem2 {
                     sc.nextLine();
                     name = sc.nextLine();
                     // Read in user input of performer name     
-                    System.out.println("Please enter integer director ID:");
-                    int did = sc.nextInt();
+                    
                     System.out.println("Please enter integer age:");
                     age = sc.nextInt();
-                    // Read in user input of performer age                    
+                    // Read in user input of performer age     
+                    System.out.println("Please enter integer director ID:");
+                    int did = sc.nextInt();
           
                     // Read in user input of performer Classification                    
                     System.out.println("Connecting to the database...");
@@ -106,8 +107,8 @@ public class Problem2 {
                     		// Populate the query template with the data collected from the user                            
                     		statement.setInt(1, pid);
                             statement.setString(2, name);
-                            statement.setInt(3, did);
-                            statement.setInt(4, age);
+                            statement.setInt(3, age);
+                            statement.setInt(4, did);
                             System.out.println("Dispatching the query...");
                             // Actually execute the populated query                            
                             final int rows_inserted = statement.executeUpdate();

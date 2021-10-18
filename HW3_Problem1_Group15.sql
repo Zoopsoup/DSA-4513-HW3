@@ -19,7 +19,7 @@ SELECT dname FROM Director WHERE dname = 5;
 ---We chose the director id in the movies table as our search key for indexing as a secondary index.---
 ---The movies table has the most attributes of all of the tables in our database.---
 ---This would allow us to see the data sorted by the director id and easily see which directors are associated to each movie.---
----Therefore, an index for movies would benefit in searching on our database. Below is a screenshot for creation of the index.---
+---Therefore, an index for movies would benefit in searching on our database.---
 
 CREATE INDEX index_did ON Movie (did)
 

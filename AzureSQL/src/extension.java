@@ -12,7 +12,7 @@ import java.sql.DriverManager;
 
 import java.sql.PreparedStatement;
 
-public class Problem2 {
+public class extension {
 	// Database credentials    
 	final static String HOSTNAME = "sanb4019-sql-server.database.windows.net";
 
@@ -27,8 +27,10 @@ public class Problem2 {
 			"jdbc:sqlserver://%s:1433;database=%s;user=%s;password=%s;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"
 			,HOSTNAME, DBNAME, USERNAME, PASSWORD);
 
-	// Query templates    
+	// Query templates
+	//Template 1 executes sp_1 Transact-SQL procedure for the first insertion case
 	final static String QUERY_TEMPLATE_1 = "EXEC sp_1 @pid = ?, @name = ?, @age = ?;";
+	//Template 2 executes sp_2 Transact-SQL procedure for the second insertion case
     final static String QUERY_TEMPLATE_2 = "EXEC sp_2 @pid = ?, @name = ?, @age = ?, @did = ?;";
     final static String QUERY_TEMPLATE_3 = "SELECT * FROM Performer;";
     // User input prompt//    
@@ -41,7 +43,7 @@ public class Problem2 {
         String option = "";
         // Initialize user option selection as nothing        
         while (!option.equals("4")) { 
-        	// As user for options until option 3 is selected
+        	// As user for options until option 4 is selected
         	System.out.println(PROMPT);
         	// Print the available options            
         	option = sc.next();
@@ -49,22 +51,20 @@ public class Problem2 {
         		switch (option) { 
         		// Switch between different options                
         		case "1": 
-        			// Insert a new student option                    
-        			// Collect the new student data from the user                    
+        			// Insert a new performer option 1                   
+        			// Collect the new performer data from the user
+        			// Read in the user input of performer ID 
         			System.out.println("Please enter integer performer ID:");
                     int pid = sc.nextInt();
-                    // Read in the user input of student ID                    
+                    // Read in user input of performer name                  
                     System.out.println("Please enter performer name:");
                     // Preceding nextInt, nextFloar, etc. do not consume new line characters from the user input.                    
                     // We call nextLine to consume that newline character, so that subsequent nextLine doesn't return nothing.             
                     sc.nextLine();
                     String name = sc.nextLine();
-                    // Read in user input of performer name     
+                    // Read in user input of performer age
                     System.out.println("Please enter integer age:");
-                    int age = sc.nextInt();
-                    // Read in user input of performer age                    
-          
-                    // Read in user input of performer Classification                    
+                    int age = sc.nextInt();                   
                     System.out.println("Connecting to the database...");
                     // Get a database connection and prepare a query statement                    
                     try (final Connection connection = DriverManager.getConnection(URL)) {                        
@@ -81,25 +81,23 @@ public class Problem2 {
                     }                    
                     break;
                 case "2":                    
-                	// Insert a new student option                    
-        			// Collect the new student data from the user                    
+        			// Insert a new performer option 2                  
+        			// Collect the new performer data from the user
+        			// Read in the user input of performer ID 
         			System.out.println("Please enter integer performer ID:");
                     pid = sc.nextInt();
-                    // Read in the user input of student ID                    
+                    // Read in user input of performer name                  
                     System.out.println("Please enter performer name:");
                     // Preceding nextInt, nextFloar, etc. do not consume new line characters from the user input.                    
                     // We call nextLine to consume that newline character, so that subsequent nextLine doesn't return nothing.             
                     sc.nextLine();
                     name = sc.nextLine();
-                    // Read in user input of performer name     
-                    
+                    // Read in user input of performer age
                     System.out.println("Please enter integer age:");
-                    age = sc.nextInt();
-                    // Read in user input of performer age     
+                    age = sc.nextInt();      
+                    // Read in user input of director ID
                     System.out.println("Please enter integer director ID:");
-                    int did = sc.nextInt();
-          
-                    // Read in user input of performer Classification                    
+                    int did = sc.nextInt();                   
                     System.out.println("Connecting to the database...");
                     // Get a database connection and prepare a query statement                    
                     try (final Connection connection = DriverManager.getConnection(URL)) {                        
@@ -141,8 +139,8 @@ public class Problem2 {
                 	System.out.println(String.format("Unrecognized option: %s\n" + "Please try again!",option));
                     break;
             }        
-    }        
+        }        
         sc.close();
  // Close the scanner before exiting the application    
     }
-    }
+}

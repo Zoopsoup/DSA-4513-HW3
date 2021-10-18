@@ -1,12 +1,12 @@
 1) 
 name	certificateNo	city	price_per-hour	Block
-Black	33		OKC	20		2
-Chapman	44		Edmond	20		5
-Clinton	55		Tulsa	25		9
-Ford	66		Enid	25		6
-Grant	22		Norman	15		3
-Haas	99		OKC	20		7
-Hougen	88		Yukon	25		8
+Black	33		OKC	20		1
+Chapman	44		Edmond	20		2
+Clinton	55		Tulsa	25		3
+Ford	66		Enid	25		2
+Grant	22		Norman	15		1
+Haas	99		OKC	20		3
+Hougen	88		Yukon	25		3
 Johnson	11		Yukon	20		1
-White	77		OKC	20		4
+White	77		OKC	20		2
  

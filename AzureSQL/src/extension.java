@@ -37,7 +37,7 @@ public class extension {
     final static String PROMPT = "\nPlease select one of the options below: \n" + "1) Insert new Performer \n" + "2) Insert new Performer (with did) \n" + "3) Display all perfomers \n" + "4) Exit!";
     
     public static void main(String[] args) throws SQLException {        
-    	System.out.println("Welcome to the sample application!");
+    	System.out.println("Welcome to the Group 15 HW3 application!");
         final Scanner sc = new Scanner(System.in);
         // Scanner is used to collect the user input        
         String option = "";

@@ -1,0 +1,258 @@
+Welcome to the Group 15 HW3 application!
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+3
+Connecting to the database...
+Dispatching the query...
+Contents of the Performer table:
+ID | name | years of experience | age 
+1 | Morgan | 48 | 67
+2 | Cruz | 14 | 28
+3 | Adams | 1 | 16
+4 | Perry | 18 | 32
+5 | Hanks | 36 | 55
+6 | Hanks | 15 | 24
+7 | Lewis | 13 | 32
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+1
+Please enter integer performer ID:
+8
+Please enter performer name:
+Gomez
+Please enter integer age:
+37
+Connecting to the database...
+Dispatching the query...
+Done. 1 rows inserted.
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+3
+Connecting to the database...
+Dispatching the query...
+Contents of the Performer table:
+ID | name | years of experience | age 
+1 | Morgan | 48 | 67
+2 | Cruz | 14 | 28
+3 | Adams | 1 | 16
+4 | Perry | 18 | 32
+5 | Hanks | 36 | 55
+6 | Hanks | 15 | 24
+7 | Lewis | 13 | 32
+8 | Gomez | 15 | 37
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+1
+Please enter integer performer ID:
+9
+Please enter performer name:
+McDonald
+Please enter integer age:
+15
+Connecting to the database...
+Dispatching the query...
+Done. 1 rows inserted.
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+3
+Connecting to the database...
+Dispatching the query...
+Contents of the Performer table:
+ID | name | years of experience | age 
+1 | Morgan | 48 | 67
+2 | Cruz | 14 | 28
+3 | Adams | 1 | 16
+4 | Perry | 18 | 32
+5 | Hanks | 36 | 55
+6 | Hanks | 15 | 24
+7 | Lewis | 13 | 32
+8 | Gomez | 15 | 37
+9 | McDonald | 8 | 15
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+1
+Please enter integer performer ID:
+10
+Please enter performer name:
+Galifinakis
+Please enter integer age:
+78
+Connecting to the database...
+Dispatching the query...
+Done. 1 rows inserted.
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+3
+Connecting to the database...
+Dispatching the query...
+Contents of the Performer table:
+ID | name | years of experience | age 
+1 | Morgan | 48 | 67
+2 | Cruz | 14 | 28
+3 | Adams | 1 | 16
+4 | Perry | 18 | 32
+5 | Hanks | 36 | 55
+6 | Hanks | 15 | 24
+7 | Lewis | 13 | 32
+8 | Gomez | 15 | 37
+9 | McDonald | 8 | 15
+10 | Galifinakis | 60 | 78
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+2
+Please enter integer performer ID:
+11
+Please enter performer name:
+Yolozondre
+Please enter integer age:
+64
+Please enter integer director ID:
+1
+Connecting to the database...
+Dispatching the query...
+Done. 1 rows inserted.
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+3
+Connecting to the database...
+Dispatching the query...
+Contents of the Performer table:
+ID | name | years of experience | age 
+1 | Morgan | 48 | 67
+2 | Cruz | 14 | 28
+3 | Adams | 1 | 16
+4 | Perry | 18 | 32
+5 | Hanks | 36 | 55
+6 | Hanks | 15 | 24
+7 | Lewis | 13 | 32
+8 | Gomez | 15 | 37
+9 | McDonald | 8 | 15
+10 | Galifinakis | 60 | 78
+11 | Yolozondre | 22 | 64
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+2
+Please enter integer performer ID:
+12
+Please enter performer name:
+Gilmore
+Please enter integer age:
+24
+Please enter integer director ID:
+2
+Connecting to the database...
+Dispatching the query...
+Done. 1 rows inserted.
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+3
+Connecting to the database...
+Dispatching the query...
+Contents of the Performer table:
+ID | name | years of experience | age 
+1 | Morgan | 48 | 67
+2 | Cruz | 14 | 28
+3 | Adams | 1 | 16
+4 | Perry | 18 | 32
+5 | Hanks | 36 | 55
+6 | Hanks | 15 | 24
+7 | Lewis | 13 | 32
+8 | Gomez | 15 | 37
+9 | McDonald | 8 | 15
+10 | Galifinakis | 60 | 78
+11 | Yolozondre | 22 | 64
+12 | Gilmore | 22 | 24
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+2
+Please enter integer performer ID:
+13
+Please enter performer name:
+Hillsbury
+Please enter integer age:
+43
+Please enter integer director ID:
+3
+Connecting to the database...
+Dispatching the query...
+Done. 1 rows inserted.
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+3
+Connecting to the database...
+Dispatching the query...
+Contents of the Performer table:
+ID | name | years of experience | age 
+1 | Morgan | 48 | 67
+2 | Cruz | 14 | 28
+3 | Adams | 1 | 16
+4 | Perry | 18 | 32
+5 | Hanks | 36 | 55
+6 | Hanks | 15 | 24
+7 | Lewis | 13 | 32
+8 | Gomez | 15 | 37
+9 | McDonald | 8 | 15
+10 | Galifinakis | 60 | 78
+11 | Yolozondre | 22 | 64
+12 | Gilmore | 22 | 24
+13 | Hillsbury | 22 | 43
+
+Please select one of the options below: 
+1) Insert new Performer 
+2) Insert new Performer (with did) 
+3) Display all perfomers 
+4) Exit!
+4
+Exiting! Good-buy!

@@ -17,3 +17,6 @@
 
 ---1.2---
 ---CREATE INDEX index_did ON Movie (did)
+
+---QUERY to Rerun---
+UPDATE Director SET earnings = earnings * 0.9 WHERE did = (SELECT did FROM Movie WITH(INDEX(index_did)) WHERE mname = 'Up');
